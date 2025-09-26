@@ -5,3 +5,49 @@
     font-family:'poppins', sans-serif;
     box-sizing: border-box;
 }
+body{
+    display: grid;
+    place-items:center;
+    min-height: 100vh;
+    background-color: #595DB8;
+}
+
+.sortable-list{
+    background-color: #fff;
+    width: 445px;
+    border-radius: 6px;
+    padding: 25px 15px 20px;
+}
+
+.sortable-list .item{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 11px;
+    padding: 10px 13px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.item .details{
+    display: flex;
+    align-items: center;
+}
+
+.item .details img{
+    height: 43px;
+    width: 43px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.item .details span{
+    font-size: 1.14rem;
+}
+
+.item i{
+    color: #474747;
+    font-size: 1.13rem;
+}
